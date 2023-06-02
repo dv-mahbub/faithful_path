@@ -40,6 +40,9 @@ dependencies:
   geolocator: ^9.0.2
   flutter_map: ^4.0.0
   flutter_map_marker_cluster: ^1.1.1
+  analog_clock: ^0.1.1
+  intl: ^0.18.1
+  firebase_messaging: ^14.6.2
 
 dev_dependencies:
   flutter_test:
