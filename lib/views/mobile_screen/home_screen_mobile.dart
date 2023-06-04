@@ -1,6 +1,7 @@
+import 'package:alarm/alarm.dart';
+import 'package:alarm/model/alarm_settings.dart';
 import 'package:faithful_path/views/mobile_screen/hadith_list_screen_mobile.dart';
 import 'package:faithful_path/views/mobile_screen/location_tracker_screen_mobile.dart';
-import 'package:faithful_path/views/mobile_screen/salat_time_screen_mobile.dart';
 import 'package:faithful_path/views/mobile_screen/surah_list_screen_mobile.dart';
 import 'package:faithful_path/constant_files/color.dart';
 import 'package:faithful_path/constant_files/string.dart';
@@ -31,7 +32,7 @@ class HomeScreenMobile extends StatelessWidget {
               ),
               Row(
                 children: [
-                  CustomCard(imageLocation: timeIconAddress, title: 'Salat Time', screen: LocationTrackerScreenMobile()),
+                  CustomCard(imageLocation: timeIconAddress, title: 'Salat Time', screen: const LocationTrackerScreenMobile()),
                 ],
               ),
             ],
